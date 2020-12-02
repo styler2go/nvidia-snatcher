@@ -284,6 +284,13 @@ export const Notebooksbilliger: Store = {
 			model: '5950x',
 			series: 'ryzen5950',
 			url: 'https://www.notebooksbilliger.de/amd+ryzen+9+5950x+cpu+684033'
+		},
+		{
+			brand: 'nvidia',
+			model: 'founders edition',
+			series: '3060ti',
+			url:
+				'https://www.notebooksbilliger.de/nvidia+geforce+rtx+3060+ti+founders+edition+690367'
 		}
 	],
 	name: 'notebooksbilliger'
