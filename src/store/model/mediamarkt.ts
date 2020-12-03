@@ -1,9 +1,10 @@
 import {Store} from './store';
 
 export const Mediamarkt: Store = {
+	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		captcha: {
-			container: 'body',
+			container: 'p',
 			text: ['Das ging uns leider zu schnell.']
 		},
 		maxPrice: {
@@ -13,11 +14,11 @@ export const Mediamarkt: Store = {
 		outOfStock: [
 			{
 				container: '#root',
-				text: ['dieser artikel ist aktuell nicht verfügbar.']
+				text: ['Dieser artikel ist aktuell nicht verfügbar.']
 			},
 			{
 				container: '#root',
-				text: ['leider keine Lieferung möglich']
+				text: ['Leider keine Lieferung möglich']
 			}
 		]
 	},
@@ -26,7 +27,19 @@ export const Mediamarkt: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.mediamarkt.de/de/product/-2592355.html'
+			url: 'https://www.mediamarkt.de/de/product/-2641856.html'
+		},
+		{
+			brand: 'asus',
+			model: 'dual',
+			series: '3060ti',
+			url: 'https://www.mediamarkt.de/de/product/-2701239.html'
+		},
+		{
+			brand: 'zotac',
+			model: 'twin edge',
+			series: '3060ti',
+			url: 'https://www.mediamarkt.de/de/product/-2704436.html'
 		},
 		{
 			brand: 'asus',

@@ -5,6 +5,7 @@ import {AlternateNL} from './alternate-nl';
 import {Amazon} from './amazon';
 import {AmazonCa} from './amazon-ca';
 import {AmazonDe} from './amazon-de';
+import {AmazonDeWarehouse} from './amazon-de-warehouse';
 import {AmazonEs} from './amazon-es';
 import {AmazonFr} from './amazon-fr';
 import {AmazonIt} from './amazon-it';
@@ -41,12 +42,14 @@ import {Euronics} from './euronics';
 import {EuronicsDE} from './euronics-de';
 import {Evga} from './evga';
 import {EvgaEu} from './evga-eu';
+import {Expert} from './expert';
 import {Galaxus} from './galaxus';
 import {Game} from './game';
 import {Gamestop} from './gamestop';
 import {GamestopDE} from './gamestop-de';
 import {Kabum} from './kabum';
 import {Mediamarkt} from './mediamarkt';
+import {Medimax} from './medimax';
 import {MemoryExpress} from './memoryexpress';
 import {MicroCenter} from './microcenter';
 import {Mindfactory} from './mindfactory';
@@ -57,6 +60,7 @@ import {Novatech} from './novatech';
 import {Nvidia} from './nvidia';
 import {NvidiaApi} from './nvidia-api';
 import {OfficeDepot} from './officedepot';
+import {Otto} from './otto';
 import {Overclockers} from './overclockers';
 import {PCComponentes} from './pccomponentes';
 import {PlayStation} from './playstation';
@@ -65,6 +69,8 @@ import {ProshopDE} from './proshop-de';
 import {ProshopDK} from './proshop-dk';
 import {Saturn} from './saturn';
 import {Scan} from './scan';
+import {SmythsToys} from './smythstoys';
+import {Spielegrotte} from './spielegrotte';
 import {Store} from './store';
 import {Target} from './target';
 import {TopAchat} from './topachat';
@@ -84,6 +90,7 @@ export const storeList = new Map([
 	[Amazon.name, Amazon],
 	[AmazonCa.name, AmazonCa],
 	[AmazonDe.name, AmazonDe],
+	[AmazonDeWarehouse.name, AmazonDeWarehouse],
 	[AmazonEs.name, AmazonEs],
 	[AmazonFr.name, AmazonFr],
 	[AmazonNl.name, AmazonNl],
@@ -120,12 +127,14 @@ export const storeList = new Map([
 	[EuronicsDE.name, EuronicsDE],
 	[Evga.name, Evga],
 	[EvgaEu.name, EvgaEu],
+	[Expert.name, Expert],
 	[Galaxus.name, Galaxus],
 	[Game.name, Game],
 	[Gamestop.name, Gamestop],
 	[GamestopDE.name, GamestopDE],
 	[Kabum.name, Kabum],
 	[Mediamarkt.name, Mediamarkt],
+	[Medimax.name, Medimax],
 	[MemoryExpress.name, MemoryExpress],
 	[MicroCenter.name, MicroCenter],
 	[Mindfactory.name, Mindfactory],
@@ -136,6 +145,7 @@ export const storeList = new Map([
 	[Nvidia.name, Nvidia],
 	[NvidiaApi.name, NvidiaApi],
 	[OfficeDepot.name, OfficeDepot],
+	[Otto.name, Otto],
 	[Overclockers.name, Overclockers],
 	[PCComponentes.name, PCComponentes],
 	[PlayStation.name, PlayStation],
@@ -144,6 +154,8 @@ export const storeList = new Map([
 	[ProshopDK.name, ProshopDK],
 	[Saturn.name, Saturn],
 	[Scan.name, Scan],
+	[SmythsToys.name, SmythsToys],
+	[Spielegrotte.name, Spielegrotte],
 	[Target.name, Target],
 	[TopAchat.name, TopAchat],
 	[Unieuro.name, Unieuro],

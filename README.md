@@ -147,6 +147,7 @@ environment variables are **optional**._
 | Amazon | `amazon`|
 | Amazon (CA) | `amazon-ca`|
 | Amazon (DE) | `amazon-de`|
+| Amazon (DE) Warehouse | `amazon-de-warehouse`|
 | Amazon (ES) | `amazon-es`|
 | Amazon (FR) | `amazon-fr`|
 | Amazon (IT) | `amazon-it`|
@@ -183,12 +184,14 @@ environment variables are **optional**._
 | Euronics (DE) | `euronics-de`|
 | EVGA | `evga`|
 | EVGA (EU) | `evga-eu`|
+| Expert | `expert`|
 | Galaxus (DE) | `galaxus`|
 | Game (UK) | `game`|
 | Gamestop | `gamestop`|
 | Gamestop (DE) | `gamestop-de`|
 | Kabum (BR) | `kabum`|
 | Mediamarkt (DE) | `mediamarkt`|
+| Medimax | `medimax`|
 | MemoryExpress (CA) | `memoryexpress`|
 | Micro Center | `microcenter`|
 | Mindfactory (DE) | `mindfactory` |
@@ -199,6 +202,7 @@ environment variables are **optional**._
 | Nvidia | `nvidia`|
 | Nvidia (API) | `nvidia-api`|
 | Office Depot | `officedepot`|
+| Otto | `otto`|
 | Overclockers (UK) | `overclockers`|
 | PCComponentes (ES) | `pccomponentes`|
 | PlayStation | `playstation`|
@@ -207,6 +211,8 @@ environment variables are **optional**._
 | Proshop (DK) | `proshop-dk`|
 | Saturn (DE) | `saturn`|
 | Scan (UK) | `scan`|
+| Smyths Toys (UK) | `smythstoys`|
+| Spielegrotte | `spielegrotte`|
 | Target | `target`|
 | Unieuro (IT) | `unieuro`|
 | Very (UK) | `very`|
