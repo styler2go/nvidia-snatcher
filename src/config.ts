@@ -179,7 +179,18 @@ const logLevel = envOrString(process.env.LOG_LEVEL, 'info');
 const notifications = {
 	desktop: process.env.DESKTOP_NOTIFICATIONS === 'true',
 	discord: {
-		notifyGroup: envOrArray(process.env.DISCORD_NOTIFY_GROUP),
+		notifyGroupSeries: {
+			3070: envOrString(process.env.DISCORD_NOTIFY_GROUP_3070),
+			3080: envOrString(process.env.DISCORD_NOTIFY_GROUP_3080),
+			3090: envOrString(process.env.DISCORD_NOTIFY_GROUP_3090),
+			rx6800: envOrString(process.env.DISCORD_NOTIFY_GROUP_RX6800),
+			rx6800xt: envOrString(process.env.DISCORD_NOTIFY_GROUP_RX6800XT),
+			rx6900xt: envOrString(process.env.DISCORD_NOTIFY_GROUP_RX6900XT),
+			ryzen5600: envOrString(process.env.DISCORD_NOTIFY_GROUP_RYZEN5600),
+			ryzen5800: envOrString(process.env.DISCORD_NOTIFY_GROUP_RYZEN5800),
+			ryzen5900: envOrString(process.env.DISCORD_NOTIFY_GROUP_RYZEN5900),
+			ryzen5950: envOrString(process.env.DISCORD_NOTIFY_GROUP_RYZEN5950)
+		},
 		webHookUrl: envOrArray(process.env.DISCORD_WEB_HOOK)
 	},
 	email: {
