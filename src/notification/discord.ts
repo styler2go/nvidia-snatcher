@@ -5,6 +5,7 @@ import {logger} from '../logger';
 
 const discord = config.notifications.discord;
 const hooks = discord.webHookUrl;
+const notifyGroup = discord.notifyGroup;
 const notifyGroupSeries = discord.notifyGroupSeries;
 
 export function sendDiscordMessage(link: Link, store: Store) {
@@ -23,17 +24,17 @@ export function sendDiscordMessage(link: Link, store: Store) {
 				embed.addField('Series', link.series, true);
 				embed.addField('Model', link.model, true);
 
-				if (link.price) {
-					embed.addField('Preis', `${String(link.price)}€`, true);
+				const notifyText: string[] = [];
+
+				if (Object.keys(notifyGroupSeries).indexOf(link.series) !== 0) {
+					notifyText.concat(notifyGroupSeries[link.series]);
+				} else if (notifyGroup) {
+					notifyText.concat(notifyGroup); // If there is no group for the series we
 				}
 
-				const notifyText = [];
-				if (Object.keys(notifyGroupSeries).indexOf(link.series)) {
-					// @ts-expect-error
-					notifyText.push(notifyGroupSeries[link.series]);
+				if (notifyText.length > 0) {
+					embed.setText(notifyText.join(' '));
 				}
-
-				embed.setText(notifyText.join(' '));
 
 				embed.setColor(0x76b900);
 				embed.setTimestamp();
