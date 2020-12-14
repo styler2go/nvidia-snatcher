@@ -15,12 +15,15 @@ export type Brand =
 	| 'amd'
 	| 'asrock'
 	| 'asus'
+	| 'colorful'
 	| 'corsair'
 	| 'evga'
 	| 'gainward'
+	| 'galax'
 	| 'gigabyte'
 	| 'inno3d'
 	| 'kfa2'
+	| 'leadtek'
 	| 'microsoft'
 	| 'msi'
 	| 'nvidia'
@@ -66,6 +69,7 @@ export type Model =
 	| 'aorus master'
 	| 'aorus xtreme'
 	| 'aorus xtreme waterforce'
+	| 'aorus xtreme waterforce wb'
 	| 'aorus'
 	| 'challenger'
 	| 'crosshair viii'
@@ -87,12 +91,16 @@ export type Model =
 	| 'gaming x3'
 	| 'suprim x'
 	| 'gaming'
+	| 'hurricane'
 	| 'ichill x2'
 	| 'ichill x3'
 	| 'ichill x4'
 	| 'ichill frostbite'
+	| 'igame advanced oc'
+	| 'igame vulcan oc'
 	| 'ko'
 	| 'nitro+'
+	| 'nitro+ se'
 	| 'nitro oc se'
 	| 'nitro oc'
 	| 'phantom gaming'
@@ -180,6 +188,7 @@ export type Store = {
 	};
 	labels: Labels;
 	name: string;
+	currency: '£' | '$' | '€' | 'R$' | 'kr.' | '';
 	setupAction?: (browser: Browser) => void;
 	/**
 	 * The range of status codes which considered successful, i.e. without error

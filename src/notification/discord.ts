@@ -31,13 +31,18 @@ export function sendDiscordMessage(link: Link, store: Store) {
 						'> provided by [streetmerchant](https://github.com/jef/streetmerchant) with :heart:'
 					)
 					.setThumbnail(
-						'https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-square.png'
+						'https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-logo.png'
 					)
 					.setColor('#52b788')
 					.setTimestamp();
 
 				embed.addField('Store', store.name, true);
-				if (link.price) embed.addField('Price', `$${link.price}`, true);
+				if (link.price)
+					embed.addField(
+						'Price',
+						`${store.currency}${link.price}`,
+						true
+					);
 				embed.addField('Product Page', link.url);
 				if (link.cartUrl) embed.addField('Add to Cart', link.cartUrl);
 				embed.addField('Brand', link.brand, true);

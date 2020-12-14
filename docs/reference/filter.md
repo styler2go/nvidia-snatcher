@@ -46,8 +46,10 @@ Used with the `STORES` variable.
 | AMD | CA | `amd-ca`|
 | AMD | DE | `amd-de`|
 | AMD | IT | `amd-it`|
+| AMD | UK | `amd-uk`|
 | AntOnline | US | `antonline`|
 | Argos | UK | `argos`|
+| Argos | IE | `argos-ie`|
 | Aria PC | UK | `aria`|
 | ARLT | DE | `arlt`|
 | ASUS | US | `asus` |
@@ -57,19 +59,22 @@ Used with the `STORES` variable.
 | Best Buy | US | `bestbuy`|
 | Best Buy | CA | `bestbuy-ca`|
 | Box | UK | `box`|
+| BPCTech | AU | `bpctech`|
 | CanadaComputers | CA | `canadacomputers` |
 | Caseking | DE | `caseking`|
 | CCL | UK | `ccl`|
+| Centrecom | AU | `centrecom`|
 | Comet | IT | `comet`|
 | Computeruniverse | DE | `computeruniverse` |
 | Coolblue | NL | `coolblue`|
 | Coolmod | ES | `coolmod`|
 | Corsair | US | `corsair`|
+| CPL | AU | `cpl`|
 | Currys | UK | `currys`|
 | Cyberport | DE | `cyberport` |
 | EBGames | CA | `ebgames`|
 | eBuyer | UK | `ebuyer`|
-| El Corte Inglés | US | `elcorteingles`|
+| El Corte Inglés | ES | `elcorteingles`|
 | ePrice | IT | `eprice`|
 | Euronics | IT | `euronics`|
 | Euronics | DE | `euronics-de`|
@@ -80,6 +85,8 @@ Used with the `STORES` variable.
 | Game | UK | `game`|
 | Gamestop | US | `gamestop`|
 | Gamestop | DE | `gamestop-de`|
+| Gamestop | IE | `gamestop-ie`|
+| Harvey Normans | IE | | `harveynorman-ie` |
 | Kabum | BR | `kabum`|
 | Mediamarkt | DE | `mediamarkt`|
 | Medimax | DE | `medimax`|
@@ -87,6 +94,7 @@ Used with the `STORES` variable.
 | MemoryExpress | CA | `memoryexpress`|
 | Micro Center | US | `microcenter`|
 | Mindfactory | DE | `mindfactory` |
+| Mwave | AU | `mwave`|
 | Newegg | US | `newegg`|
 | Newegg | CA | `newegg-ca`|
 | Notebooksbilliger | DE |`notebooksbilliger`|
@@ -96,6 +104,7 @@ Used with the `STORES` variable.
 | Office Depot | US | `officedepot`|
 | Otto | DE | `otto`|
 | Overclockers | UK | `overclockers`|
+| PCCG | AU | `pccg`|
 | PCComponentes | ES | `pccomponentes`|
 | PlayStation | US | `playstation`|
 | PNY | US | `pny`|
@@ -103,10 +112,14 @@ Used with the `STORES` variable.
 | Proshop | DK | `proshop-dk`|
 | Saturn | DE | `saturn`|
 | Scan | UK | `scan`|
+| Scorptec | AU | `scorptec`|
 | Smyths Toys | UK | `smythstoys`|
+| Smyths Toys | IE | `smythstoys-ie`|
 | Spielegrotte | DE | `spielegrotte`|
 | Target | US | `target`|
+| Tesco | IE | `tesco-ie`|
 | Toys R Us | US | `toysrus` |
+| Umart | AU | `umart`|
 | Unieuro | IT | `unieuro`|
 | Very | UK | `very`|
 | Walmart | US | `walmart`|
@@ -141,11 +154,14 @@ Used with the `SHOW_ONLY_BRANDS` and `SHOW_ONLY_MODELS` variables.
 | `amd` | `5600x`, `5800x`, `5900x`, `5950x`, `amd reference` |
 | `asus` | `crosshair viii`, `dual`, `dual oc`, `strix`, `strix oc`, `tuf`, `tuf oc` |
 | `corsair` | `750 platinum`, `600 platinum` |
+| `colorful` | `igame advanced oc`, `igame vulcan oc` |
 | `evga` | `ftw3`, `ftw3 ultra`, `ftw3 ultra hydro copper`, `xc3`, `xc3 black`, `xc3 ultra` |
 | `gainward` | `phantom gs`, `phoenix`, `phoenix gs`, `phoenix gs oc` |
-| `gigabyte` | `aorus master`, `aorus xtreme`, `aorus xtreme waterforce`, `eagle`, `eagle oc`, `gaming`, `gaming oc`, `turbo`, `vision`, `vision oc` |
+| `gigabyte` | `aorus master`, `aorus xtreme`, `aorus xtreme waterforce`, `aorus xtreme waterforce wb`, `eagle`, `eagle oc`, `gaming`, `gaming oc`, `turbo`, `vision`, `vision oc` |
+| `galax` | `sg`, `sg oc` |
 | `inno3d` | `gaming x3`, `ichill x3`, `ichill x4`, `ichill frostbite`, `twin x2 oc` |
 | `kfa2` | `sg`, `sg oc` |
+| `leadtek` | `hurricane` |
 | `microsoft` | `xbox series x`, `xbox series s` |
 | `msi` | `gaming x trio`, `suprim x`, `ventus 2x oc`, `ventus 3x`, `ventus 3x oc` |
 | `nvidia` | `founders edition` |
