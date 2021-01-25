@@ -40,6 +40,8 @@ Used with the `STORES` variable.
 |---|---|---|
 | AComPC | DE | `acompc` |
 | Adorama | US | `adorama`|
+| Akinformatica | IT | `akinformatica`|
+| Allneeds | AU | `allneeds`|
 | Alternate | DE | `alternate`|
 | Alternate | NL | `alternate-nl`|
 | Amazon | US | `amazon`|
@@ -71,18 +73,23 @@ Used with the `STORES` variable.
 | Best Buy | CA | `bestbuy-ca`|
 | Box | UK | `box`|
 | BPCTech | AU | `bpctech`|
+| BPM-Power | IT | `bpm-power`|
 | CanadaComputers | CA | `canadacomputers` |
 | Caseking | DE | `caseking`|
 | CCL | UK | `ccl`|
 | Centrecom | AU | `centrecom`|
 | Comet | IT | `comet`|
+| ComputerAlliance | AU | `computeralliance`|
 | Computeruniverse | DE | `computeruniverse` |
 | Coolblue | NL | `coolblue`|
 | Coolmod | ES | `coolmod`|
 | Corsair | US | `corsair`|
+| Corsair | UK | `corsair-uk`|
 | CPL | AU | `cpl`|
 | Currys | UK | `currys`|
 | Cyberport | DE | `cyberport` |
+| DComp | AU | `dcomp`|
+| Drako | IT | `drako` |
 | EBGames | CA | `ebgames`|
 | eBuyer | UK | `ebuyer`|
 | El Corte Inglés | ES | `elcorteingles`|
@@ -90,6 +97,7 @@ Used with the `STORES` variable.
 | Euronics | IT | `euronics`|
 | Euronics | DE | `euronics-de`|
 | Equippr | DE | `equippr`|
+| Evatech | AU |  `evatech`|
 | EVGA | US | `evga`|
 | EVGA | EU | `evga-eu`|
 | Expert | DE | `expert`|
@@ -99,15 +107,21 @@ Used with the `STORES` variable.
 | Gamestop | US | `gamestop`|
 | Gamestop | DE | `gamestop-de`|
 | Gamestop | IE | `gamestop-ie`|
-| Harvey Normans | IE | | `harveynorman-ie` |
+| Gamestop | IT | `gamestop-it`|
+| HarrisTechnology | AU |  `harristechnology`|
+| Harvey Normans | IE | `harveynorman-ie` |
+| Hardware Planet | IT | | `hardware-planet` |
+| iGame Computer | AU |  `igame-computer`|
 | John Lewis | UK | `johnlewis`|
 | Kabum | BR | `kabum`|
+| Landmark Computers | AU |  `landmark-computers`|
 | Mediamarkt | DE | `mediamarkt`|
 | Medimax | DE | `medimax`|
 | Megekko | NL | `megekko`|
 | MemoryExpress | CA | `memoryexpress`|
 | Micro Center | US | `microcenter`|
 | Mindfactory | DE | `mindfactory` |
+| MSY | AU |  `msy`|
 | Mwave | AU | `mwave`|
 | Newegg | US | `newegg`|
 | Newegg | CA | `newegg-ca`|
@@ -117,8 +131,11 @@ Used with the `STORES` variable.
 | Nvidia | US | `nvidia`|
 | Nvidia API | | `nvidia-api`|
 | Office Depot | US | `officedepot`|
+| Ollo | IT | `ollo`|
 | Otto | DE | `otto`|
 | Overclockers | UK | `overclockers`|
+| PBTech | AU |  `pbtech`|
+| PCByte | AU |  `pcbyte`|
 | PCCG | AU | `pccg`|
 | PCComponentes | ES | `pccomponentes`|
 | PCKing | DE | `pcking` |
@@ -126,13 +143,17 @@ Used with the `STORES` variable.
 | PNY | US | `pny`|
 | Proshop | DE | `proshop-de`|
 | Proshop | DK | `proshop-dk`|
+| Rosman | AU |  `rosman`|
+| Rosman-Melb | AU |  `rosman-melb`|
 | Saturn | DE | `saturn`|
+| Save On It | AU |  `saveonit`|
 | Scan | UK | `scan`|
 | Scorptec | AU | `scorptec`|
 | ShopTo | UK | `shopto`|
 | Smyths Toys | UK | `smythstoys`|
 | Smyths Toys | IE | `smythstoys-ie`|
 | Spielegrotte | DE | `spielegrotte`|
+| Storm Computers | AU |  `storm-computer`|
 | Target | US | `target`|
 | Tesco | IE | `tesco-ie`|
 | Toys R Us | US | `toysrus` |
@@ -142,6 +163,7 @@ Used with the `STORES` variable.
 | Vuugo | CA | `vuugo` |
 | Walmart | US | `walmart`|
 | Walmart | CA | `walmart-ca`|
+| Wells Technology | AU |  `wellstechnology`|
 | Wipoid | ES | `wipoid`|
 | Zotac | US | `zotac`|
 | TopAchat | GR | `topachat`|
@@ -170,24 +192,24 @@ Used with the `SHOW_ONLY_BRANDS` and `SHOW_ONLY_MODELS` variables.
 | Brand | Model |
 |:---:|---|
 | `amd` | `5600x`, `5800x`, `5900x`, `5950x`, `amd reference` |
-| `asus` | `crosshair viii`, `dual`, `dual oc`, `strix`, `strix oc`, `tuf`, `tuf oc` |
-| `corsair` | `750 platinum`, `600 platinum` |
+| `asus` | `crosshair viii`, `dual`, `dual oc`, `ekwb`, `strix`, `strix oc`, `strix white`, `tuf`, `tuf oc` |
+| `corsair` | `750 platinum`, `600 platinum`, `600 gold` |
 | `colorful` | `igame advanced oc`, `igame vulcan oc` |
-| `evga` | `ftw3`, `ftw3 ultra`, `ftw3 ultra hydro copper`, `xc3`, `xc gaming`, `xc3 black`, `xc3 ultra` |
+| `evga` | `ftw3`, `ftw3 black`, `ftw3 ultra`, `ftw3 ultra hybrid`, `ftw3 ultra hydro copper`, `xc3`, `xc black`, `xc gaming`, `xc3 black`, `xc3 ultra`, `xc3 ultra hybrid` |
 | `gainward` | `phantom gs`, `phoenix`, `phoenix gs`, `phoenix gs oc` |
-| `gigabyte` | `aorus master`, `aorus xtreme`, `aorus xtreme waterforce`, `aorus xtreme waterforce wb`, `eagle`, `eagle oc`, `gaming`, `gaming oc`, `turbo`, `vision`, `vision oc` |
+| `gigabyte` | `aorus master`, `aorus xtreme`, `aorus xtreme waterforce`, `aorus xtreme waterforce wb`, `eagle`, `eagle oc`, `gaming`, `gaming oc`, `gaming oc pro`, `turbo`, `vision`, `vision oc` |
 | `galax` | `sg`, `sg oc` |
-| `inno3d` | `gaming x3`, `ichill x3`, `ichill x4`, `ichill frostbite`, `twin x2 oc` |
+| `inno3d` | `gaming x3`, `ichill x3`, `ichill x4`, `ichill frostbite`, `twin x2`, `twin x2 oc` |
 | `kfa2` | `sg`, `sg oc` |
 | `leadtek` | `hurricane` |
 | `microsoft` | `xbox series x`, `xbox series s` |
-| `msi` | `gaming x trio`, `suprim x`, `ventus 2x oc`, `ventus 3x`, `ventus 3x oc` |
+| `msi` | `gaming x trio`, `suprim`, `suprim x`, `ventus 2x oc`, `ventus 3x`, `ventus 3x oc` |
 | `nvidia` | `founders edition` |
 | `palit` | `gamerock oc`, `gaming pro`, `gaming pro oc` |
-| `pny` | `dual fan`, `xlr8 revel`, `xlr8 uprising` |
+| `pny` | `dual fan`, `xlr8 epic x`, `xlr8 revel`, `xlr8 uprising` |
 | `sony` | `ps5 console`, `ps5 digital` |
 | `xfx` | `merc`, `amd reference` |
-| `zotac` | `amp holo`, `amp extreme holo`, `trinity`, `trinity oc`, `twin edge`, `twin edge oc` |
+| `zotac` | `amp holo`, `amp extreme holo`, `trinity`, `trinity oc`, `twin edge`, `twin edge oc`, `twin edge oc white` |
 
 ## Supported series
 
